@@ -1,0 +1,165 @@
+body {
+    background-color: #337EC1 !important;
+}
+
+/*----------------------------------------
+  Landing Page Styles
+----------------------------------------*/
+
+.login-page {
+    background-image: url(../imgs/backgrounds/login_bg.PNG);
+    /* background-color: #337EC1; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+  }
+
+  .header {
+    background: #ffffff !important;
+    padding: 10px;
+  }
+
+  .contact-us {
+    padding-top: 12px;
+  }
+
+  .contact:hover,
+  .contact-email:hover {
+    text-decoration: none;
+  }
+
+  .contact,
+  .contact-email {
+    margin-right: 5px;
+    text-align: right;
+    font-size: 16px;
+    color: #2768D1 !important;
+  }
+
+  .contact img{
+    background: #337EC1;
+    padding: 6px;
+    border-radius: 3px;
+    margin-right: 10px;
+  }
+
+  .contact-email img{
+    background: #337EC1;
+    padding: 8px 7px;
+    border-radius: 3px;
+    margin-right: 10px;
+  }
+
+  .login-header {
+    text-align: center;
+    color: #ffffff !important;
+    text-transform: uppercase;
+  }
+
+  .login-container {
+    border: 2px solid #ffffff !important;
+    border-radius: 20px;
+    padding: 35px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-transform: uppercase !important;
+  }
+
+  h2 {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  
+  .login-devider {
+    border-top: 2px solid #ffffff !important;
+  }
+
+  .login-container a,
+  .login-container a:hover,
+  .login-container {
+    color: #ffffff !important;
+    text-decoration: none;
+  }
+
+  .login-container .form-control {
+    background: transparent;
+    border: 2px solid #ffffff !important;
+    border-radius: 20px;
+    padding: 5px 0px 5px 40px;
+    color: #ffffff !important;
+  }
+
+  .login-field {
+    margin-top: 20px;
+  }
+
+  input:focus {
+      background: transparent !important;
+  }
+
+  .placeholder { color: #ffffff !important;
+    text-transform: uppercase;
+  }
+
+  ::-webkit-input-placeholder { color: #ffffff !important;
+    text-transform: uppercase;
+  }
+
+  :-moz-placeholder { color: #ffffff !important;
+    text-transform: uppercase;
+  }
+
+  ::moz-placeholder { color: #ffffff !important;
+    text-transform: uppercase;
+  }
+
+  :-ms-input-placeholder { color: #ffffff !important;
+    text-transform: uppercase;
+  }
+
+  img.login-icon {
+    position: absolute;
+    top: 50%;
+    left: 6%;
+  }
+
+  .form-footer {
+    margin: 0 auto;
+  }
+
+  .form-footer .btn.btn-block {
+    text-transform: uppercase;
+    background: #FFA100;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 0 !important;
+  }
+
+  .form-footer .btn.btn-block:hover {
+    background: #2768D1;
+  }
+
+  /*------------------------------------
+   Dashboard Styles 
+  ------------------------------------*/
+
+  .dash-sidebar,
+  .dash-content {
+    padding: 0;
+    margin: 0;
+  }
+
+  .dash-header {
+    width: 100%;
+    background: #337EC1;
+  }
+
+  

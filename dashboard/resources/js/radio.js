@@ -1,0 +1,100 @@
+//$(document).ready(function(){
+    $(function () {
+      $("#terms").hide();
+      $("#kyc").hide();
+      $("#idv").hide();
+      $("#cpa").hide();
+      $("#screen").hide();
+      $("#concent").hide();
+        $("#IDVcheck").click(function(){
+          if($(this).is(":checked")){
+            $("#idv").show();
+            $("#cpa").hide();
+            $("#screen").hide();
+            $("#kycCheck").prop("checked",false);
+            $("#credScore").prop("checked",false);
+            $("#screening").prop("checked",false);
+            $("#terms").show();
+          } 
+          else{
+            $("#kyc").hide();
+            $("#idv").hide();
+            $("#cpa").hide();
+            $("#screen").hide();
+            $("#kycCheck").prop("checked",false);
+            $("#credScore").prop("checked",false);
+            $("#screening").prop("checked",false);
+            $("#terms").hide();
+          }
+        });
+
+        $("#kycCheck").click(function(){
+          if($(this).is(":checked")){
+            $("#kyc").show();
+            $("#cpa").hide();
+            $("#screen").hide();
+            $("#credScore").prop("checked",false);
+            $("#screening").prop("checked",false);
+            $("#terms").show();
+          } 
+          else{
+            $("#kyc").hide();
+            $("#idv").hide();
+            $("#cpa").hide();
+            $("#screen").hide();
+            $("#IDVcheck").prop("checked",false);
+            $("#credScore").prop("checked",false);
+            $("#screening").prop("checked",false); 
+            $("#terms").hide();
+          }
+        });
+        
+        $("#credScore").click(function(){
+          if($(this).is(":checked")) {
+            $("#kyc").hide();
+            $("#idv").hide();
+            $("#cpa").show();
+            $("#screen").hide();
+            $("#IDVcheck").prop("checked",false);
+            $("#kycCheck").prop("checked",false);
+            $("#screening").prop("checked",false);
+            $("#terms").show();
+          }else{
+            $("#kyc").hide();
+            $("#idv").hide();
+            $("#cpa").hide();
+            $("#screen").hide();
+            $("#terms").hide();
+          }
+        });
+
+          $("#screening").click(function(){
+            if($(this).is(":checked")) {
+            $("#kyc").hide();
+            $("#idv").hide();
+            $("#cpa").hide();
+            $("#screen").show();
+            $("#IDVcheck").prop("checked",false);
+            $("#kycCheck").prop("checked",false);
+            $("#credScore").prop("checked",false);
+            $("#terms").show();
+          }else{
+            $("#kyc").hide();
+            $("#idv").hide();
+            $("#cpa").hide();
+            $("#screen").hide();
+            $("#IDVcheck").prop("checked",false);
+            $("#kycCheck").prop("checked",false);
+            $("#credScore").prop("checked",false); 
+            $("#terms").hide();
+          }
+        });
+
+        $("#accept").click(function(){
+          if($(this).is(":checked")) {
+            $("#concent").show();
+          }else{
+            $("#concent").hide();
+          }
+        });
+      });
